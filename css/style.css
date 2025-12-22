@@ -57,7 +57,8 @@ h2 {
 }
 
 .card, .project {
-    background: white;
+    background-color: white;
+    color: #173B4F;
     padding: 20px;
     margin-bottom: 20px;
     border-left: 5px solid #173B4F;
