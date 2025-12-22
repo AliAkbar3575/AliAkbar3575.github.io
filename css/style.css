@@ -73,30 +73,3 @@ footer {
     background: #0a192f;
     color: white;
 }
-
-.experience-card {
-    display: flex;
-    align-items: flex-start;
-    gap: 25px;
-}
-
-.dndlab-logo {
-    width: 120px;
-    height: auto;
-}
-
-.experience-text h3 {
-    margin: 0;
-    color: #0a192f;
-}
-
-.experience-text h4 {
-    margin: 5px 0;
-    color: #555;
-    font-weight: 600;
-}
-
-.experience-text .org {
-    font-style: italic;
-    margin-bottom: 10px;
-}
