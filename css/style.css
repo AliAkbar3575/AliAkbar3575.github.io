@@ -74,17 +74,3 @@ footer {
     color: white;
 }
 
-.education-card {
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-
-.edu-logo {
-    width: 90px;
-    height: auto;
-}
-
-.edu-text h3 {
-    margin: 0;
-}
