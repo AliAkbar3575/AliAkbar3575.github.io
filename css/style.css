@@ -75,3 +75,17 @@ footer {
     background: #0a192f;
     color: white;
 }
+
+
+.center-images {
+  display: flex;
+  justify-content: center; /* centers the whole group horizontally */
+  gap: 30px; /* space between the images */
+  align-items: center; /* vertically aligns them if heights differ */
+  margin-top: 50px; /* optional: spacing from top */
+}
+
+.center-images img {
+  width: 150px; /* adjust size */
+  height: auto;
+}
