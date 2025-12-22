@@ -59,11 +59,10 @@ h2 {
 
 .card, .project {
     background-color: white;
-    color: #367396;
     padding: 20px;
     margin-bottom: 10px;
     border-left: 5px solid #173B4F;
-    border-radius: 30px;
+    border-radius: 10px;
 }
 
 .list li {
