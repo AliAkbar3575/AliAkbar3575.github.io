@@ -1,44 +1,51 @@
-/* .hero {
-  padding: 60px 20px;
-} */
+/* ================= HERO / ABOUT ================= */
+
+.hero {
+    padding: 80px 20px;
+    background: #112240;
+    color: white;
+}
 
 .hero-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  max-width: 1100px;
-  margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    max-width: 1100px;
+    margin: auto;
 }
 
 .hero-left {
-  text-align: center;
+    text-align: center;
 }
 
 .hero-left img {
-  width: 180px;
-  border-radius: 50%;
-  margin-bottom: 15px;
+    width: 180px;
+    border-radius: 50%;
+    margin-bottom: 15px;
 }
 
 .hero-right {
-  max-width: 500px;
+    max-width: 500px;
+    text-align: left;
 }
 
 .hero-right h2 {
-  margin-bottom: 10px;
+    margin-bottom: 10px;
+    color: #64ffda;
 }
 
-
-/* -------------------- */
+/* ================= GLOBAL ================= */
 
 body {
     font-family: Arial, sans-serif;
-    margin: 0px;
-    padding: 0px;
+    margin: 0;
+    padding: 0;
     background: #f5f7fa;
     color: #333;
 }
+
+/* ================= NAV ================= */
 
 nav {
     background: #0a192f;
@@ -60,27 +67,19 @@ nav a {
     text-decoration: none;
 }
 
-.hero {
-    text-align: center;
-    padding: 80px 20px;
-    background: #112240;
-    color: white;
-}
-
-.hero img {
-    width: 160px;
-    border-radius: 50%;
-    margin-bottom: 20px;
-}
+/* ================= BUTTON ================= */
 
 .btn {
     background: #64ffda;
     color: #0a192f;
-    padding: 8px 8px;
+    padding: 8px 10px;
     text-decoration: none;
     border-radius: 7px;
-    margin: 40px;
+    margin-top: 20px;
+    display: inline-block;
 }
+
+/* ================= SECTIONS ================= */
 
 section {
     padding: 60px 10%;
@@ -91,7 +90,10 @@ h2 {
     margin-bottom: 30px;
 }
 
-.card, .project {
+/* ================= CARDS ================= */
+
+.card,
+.project {
     background-color: white;
     padding: 10px;
     margin-bottom: 15px;
@@ -99,9 +101,28 @@ h2 {
     border-radius: 5px 20px 20px 5px;
 }
 
+/* ================= LIST ================= */
+
 .list li {
     margin-bottom: 10px;
 }
+
+/* ================= CENTER IMAGES ================= */
+
+.center-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.center-images img {
+    width: 150px;
+    height: auto;
+}
+
+/* ================= FOOTER ================= */
 
 footer {
     text-align: center;
@@ -110,17 +131,15 @@ footer {
     color: white;
 }
 
+/* ================= RESPONSIVE ================= */
 
-.center-images {
-  display: flex;
-  justify-content: center; /* centers the whole group horizontally */
-  gap: 30px; /* space between the images */
-  align-items: center; /* vertically aligns them if heights differ */
-  margin-top: 50px; /* optional: spacing from top */
-}
+@media (max-width: 768px) {
+    .hero-container {
+        flex-direction: column;
+        text-align: center;
+    }
 
-.center-images img {
-  width: 150px; /* adjust size */
-  height: auto;
+    .hero-right {
+        text-align: center;
+    }
 }
-/* ---------------------------- */
